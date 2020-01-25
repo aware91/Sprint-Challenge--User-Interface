@@ -75,7 +75,7 @@ header nav {
     align-items: center;
 }
 
-.carlights {
+.header-img {
     width: 800px;
     margin-left: 24.75%;
     margin-bottom: 2%;
@@ -160,12 +160,41 @@ footer nav a {
     text-decoration: none;
 }
 
+
+
 /* CSS for about.html */
 .about {
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.body div {
+    width: 48%;
+    border-bottom: 1px dashed black;
+}
+
+.body p {
+    margin-bottom: 5%;
+}
+
+.button {
+    border: 1px solid black;
+    display: inline;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 10%;
 }
