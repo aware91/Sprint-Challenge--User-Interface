@@ -174,16 +174,18 @@ footer nav a {
 }
 
 .body {
+    border: 1px solid red;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
-    padding-bottom: 20px;
+    justify-content: space-between;
     margin-top: 30px;
     margin-bottom: 80px;
 }
 
 .body div {
     width: 48%;
+    margin: 2% 0%;
+    padding-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -197,4 +199,8 @@ footer nav a {
     border-radius: 10px;
     padding: 5px 10px;
     margin-bottom: 10%;
+}
+
+.row2 {
+    padding-top: 20px;
 }
