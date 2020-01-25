@@ -236,3 +236,12 @@ footer nav a {
     padding: 20px;
     margin-bottom: 2%;
 }
+
+/* CSS for Contact Page */
+
+.contact {
+    width: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
