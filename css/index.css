@@ -75,6 +75,25 @@ header nav {
     align-items: flex-end;
 }
 
+nav img {
+    background-color: red;
+    -webkit-animation-name: logo;
+    -webkit-animation-duration: 7s;
+    animation-name: logo;
+    animation-duration: 7s;
+    animation-iteration-count: 3;
+}
+
+@keyframes logo {
+    0% {background-color: red;}
+    16.6% {background-color: yellow;}
+    33.2% {background-color: orange;}
+    49.8% {background-color: green;}
+    66.4% {background-color: blue;}
+    83% {background-color: purple;}
+    100% {background-color: indigo;}
+}
+
 a {
     text-decoration: none;
 }
