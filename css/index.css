@@ -66,6 +66,43 @@ p {
     line-height: 1.4;
 }
 
+header nav {
+    width: 800px;
+    margin: 2.5% auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav img {
+    background-color: red;
+    -webkit-animation-name: logo;
+    -webkit-animation-duration: 7s;
+    animation-name: logo;
+    animation-duration: 7s;
+    animation-iteration-count: 3;
+}
+
+@keyframes logo {
+    0% {background-color: red;}
+    16.6% {background-color: yellow;}
+    33.2% {background-color: orange;}
+    49.8% {background-color: green;}
+    66.4% {background-color: blue;}
+    83% {background-color: purple;}
+    100% {background-color: indigo;}
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-img {
+    width: 800px;
+    margin-left: 24.75%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -83,6 +120,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    padding-top: 20px;
 }
 
 .middle-content {
@@ -104,7 +142,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: white;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +181,77 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+/* CSS for about.html */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.body div {
+    width: 48%;
+    margin: 2% 0%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.body h2 {
+    margin-top: 2%;
+}
+
+.body p {
+    margin-bottom: 5%;
+}
+
+.button {
+    border: 1px solid black;
+    display: inline;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.row2 {
+    padding-top: 20px;
+}
+
+.together {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 20px;
+    margin-bottom: 2%;
+}
+
+/* CSS for Contact Page */
+
+.contact {
+    border: 1px solid red;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 2% 0%;
+}
+
+.contact .address {
+    border: 1px solid blue;
+    width: 45%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
 }
