@@ -99,8 +99,9 @@ a {
 }
 
 .header-img {
+    display: block;
     width: 800px;
-    margin-left: 24.75%;
+    margin: auto;
 }
 
 .container {
